@@ -389,7 +389,8 @@ sub _parse_file
 
                     if ($saying !~ /[a-z]/o && $saying =~ /[A-Z]/o) {
                         # Ignore single smileys on a line. eg. '<user> :P'
-                        if ($saying !~ /^[8;:=][ ^-o]?[)pPD\}\]>]$/o) {
+                        #if ($saying !~ /^[8;:=X][ ^-o]?[)pPDO\}\]>]$/o) {
+                        if($saying =~ / +/o)  {
                             $stats->{allcaps}{$nick}++;
                             push @{ $lines->{allcaplines}{$nick} }, $line;
                         }
