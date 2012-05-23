@@ -248,7 +248,9 @@ question2 = "<b>[:nick]</b> weiss wohl auch nicht viel, [:per]% [:seiner:ihrer:]
 question3 = "Niemand hat hier was gefragt, sollte das etwa ein Channel voller Genies sein? ;)"
 
 shout1 = "Am lautesten war <b>[:nick]</b> [:der:die:] [:per]% der Zeit geschrien hat!"
+shout1 = "<b>[:nick]</b> meint [:er:sie:] hätte etwas wichtiges zu sagen. [:per]% [:seiner:ihrer:] Sätze beendet [:er:sie:] mit einem Ausrufezeichen!"
 shout2 = "Ein anderer <i>Schreihals</i> war <b>[:nick]</b>, [:der:die:] [:per]% der Zeit rumgeschrien hat!"
+shout2 = "[:Ein:Eine:] [:anderer:andere:] <i>[:wichtigtuer:wichtigtuerin:]</i> war <b>[:nick]</b>, [:der:die:] [:per]% der Zeit Ausrufezeichen nutzt!"
 shout3 = "Niemand hat ein Ausrufezeichen benutzt, wow... Zurückhaltende User im Channel ;)"
 
 allcaps1 = "Anscheinend klemmte die Shift-Taste von <b>[:nick]</b>, denn [:per]% der Zeit schrieb [:er:sie:] in GROSSBUCHSTABEN."
@@ -285,11 +287,11 @@ mono2 = "Ein anderes einsames Herz ist <b>[:nick]</b>, [:der:die:] [:monos] mal 
 wpl1 = "<b>[:nick]</b> schrieb im Schnitt [:wpl] Worte pro Zeile..."
 wpl2 = "Der Channeldurchschnitt lag bei [:avg] Worten/Zeile."
 
-long1 = "<b>[:nick]</b> ist die Labertasche im Channel. [:Er:Sie:] schrieb die längste Zeile mit durchschnittlich [:letters] Buchstaben pro Zeile."
+long1 = "<b>[:nick]</b> ist die Labertasche im Channel. [:Er:Sie:] schrieb die längsten Zeilen mit durchschnittlich [:letters] Buchstaben pro Zeile."
 long2 = "Channel-Durchschnitt in [:channel] war [:avg] Buchstaben pro Zeile."
 
-short1 = "<b>[:nick]</b> ist nicht sehr mitteilungsbedürftig. [:Er:Sie:] schrieb die kürzeste Zeile mit durchschnittlich [:letters] Buchstaben pro Zeile."
-short2 = "<b>[:nick]</b> fasste sich auch sehr kurz, durchschnittlich [:letters] Buchstaben pro Zeile."
+short1 = "<b>[:nick]</b> ist nicht sehr mitteilungsbedürftig. [:Er:Sie:] schrieb die kürzesten Zeilen mit durchschnittlich [:letters] Buchstaben pro Zeile."
+short2 = "<b>[:nick]</b> fasste sich mit durchschnittlich [:letters] Buchstaben pro Zeile auch sehr kurz."
 
 foul1 = "<b>[:nick]</b> hat in [:seiner:ihrer:] Jugend keine Erziehung genossen, [:per]% von dem was [:er:sie:] sagte waren Schimpfworte!"
 foul2 = "<b>[:nick]</b> war [:per]% der Zeit unartig (Ob da der Weihnachtsmann noch kommt?)"
